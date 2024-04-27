@@ -1,6 +1,6 @@
 # Fruktsalladsäventyret
 
-I den här uppgiften ska du få koda ett äventyrsspel! Du kommer att få skapa en liten affär där användaren kommer kunna köpa lite varor som han har fått i uppgift att handla till en fruktsallad. Även om det är frukt till en fruktsallad i det här exemplet kan du göra ett helt annat äventyrsspel, till exempel ingredienser till pankakor eller brädor till en koja. Det blir mycket kodande, många sprajts och så kommer du att få lära dig att använda listor.
+I den här uppgiften ska du få koda ett äventyrsspel! Du kommer att få skapa en liten affär där användaren kommer kunna köpa lite varor som han har fått i uppgift att handla till en fruktsallad. Även om det är frukt till en fruktsallad i det här exemplet kan du göra ett helt annat äventyrsspel, till exempel ingredienser till pannkakor eller brädor till en koja. Det blir mycket kodande, många sprajtar och så kommer du att få lära dig att använda listor.
 
 Ett exempel på hur  spelet kan se ut ser du här: <a href="https://scratch.mit.edu/projects/116997344/" target="_blank">https://scratch.mit.edu/projects/116997344/</a>
 
@@ -12,13 +12,13 @@ Du ska börja med att skapa **3 bakgrunder** och sedan koda så att spelaren kan
 
 1.	Skapa ett nytt projekt och ta bort katten.
 
-2.	**Namnge** den första **vita bakgrunden** till **"affären"**. Du ska senare rita affären, men för tillfället är den tom.
+2.	**Döp** den första **vita bakgrunden** till **”affären”**. Du ska senare rita affären, men för tillfället är den tom.
 
 3.	Lägg till **2 bakgrunder** från biblioteket:
 
-  * **Kitchen** – **namnge** den till **"hem"**
+  * **Refrigerator** – **döp** den till **”hem”**
 
-  * **Urban2** – **namnge** den till **"gata"**
+  * **Urban** – **döp** den till **”gata”**
 
 4.	Klicka på Skript-fliken så att du kan koda ett skript för **scenen** som säger:
 
@@ -32,9 +32,9 @@ Du ska börja med att skapa **3 bakgrunder** och sedan koda så att spelaren kan
 
   * **Byt bakgrund** till **”hem”**
 
-6.	**Lägg till en sprajt** som användaren kan prata med och få uppdrag av. Du kan till exempel välja **Calvrett** och sätta honom på bänken i köket.
+6.	**Lägg till en sprajt** som användaren kan prata med och få uppdrag av. Du kan till exempel välja **Calvrett** och sätta honom på en hylla i kylen.
 
-7.	**Lägg till** sprajten **Arrow1** från biblioteket och ge den **namnet "gå-gata"**.
+7.	**Lägg till** sprajten **Arrow1** från biblioteket och döp den till **”gå-gata”**.
 
 8.	Skapa ett skript för **gå-gata** som säger:
 
@@ -64,7 +64,7 @@ Nu ska du få göra lite fler pilar så att spelaren kan vandra omkring mellan d
 
 1.	**Kopiera** sprajten **gå-gatan** _2_ gånger så att du total har **3 pilar**.
 
-2.	**Namnge** en pil till **”gå-hem”** och en annan **”gå-affär”**
+2.	**Döp** en pil till **”gå-hem”** och en annan **”gå-affär”**
 
 3.	Ändra i skripten för de nya pilarna så att dem **visas** när de tar emot meddelandet **”visa gata”**.
 
@@ -76,7 +76,7 @@ Nu ska du få göra lite fler pilar så att spelaren kan vandra omkring mellan d
 
   * Startar när den **klickas på**
 
-  * Skickar meddelandet **"visa hem"**
+  * Skickar meddelandet **”visa hem”**
 
 6.	Gör det samma för sprajten **gå-affär** men skicka istället meddelandet **”visa affär”**.
 
@@ -130,7 +130,7 @@ Nu är det dags att skapa en VARIABEL som håller reda på hur många kronor du 
 
 10.	Skapa en **variabel** för alla sprajter som heter **”kronor”**
 
-11.	Skapa en **lista** för alla sprajter och kalla den **”inköpslista”.** Du hittar *listor* under fliken **Data**.![image alt nylista](image_5.png).
+11.	Skapa en **lista** för alla sprajter och kalla den **”inköpslista”.** Du hittar *listor* under fliken **Variabler**.![image alt nylista](image_5.png).
 
     Listan kommer att synas som en tom lista på skärmen. Du kan se en lista som en speciell variabel som **innehåller flera olika värden**, i det här fallet ska den innehålla det som **Calvrett** vill att spelaren ska handla.
 
@@ -145,7 +145,7 @@ Nu är det dags att skapa en VARIABEL som håller reda på hur många kronor du 
 
   * Sätter variabeln **”kronor”** till **100**
 
-  * **Ta bort allt** i **”inköpslista”**
+  * **Ta bort alla** i **”inköpslista”**
 
   ![image alt tabortallt](image_7.png)
 
@@ -153,9 +153,9 @@ Nu är det dags att skapa en VARIABEL som håller reda på hur många kronor du 
 
   * **Lägg till ”bananer”** i **”inköpslista”**
 
-  * **Lägg till "vattenmelon"** i **”inköpslista”**
+  * **Lägg till ”vattenmelon”** i **”inköpslista”**
 
-  * **Lägg till "apelsin"** i **”inköpslista”**
+  * **Lägg till ”apelsin”** i **”inköpslista”**
 
 13.	Vad som händer när **Calvrett** tar emot meddelandet **”nej-svar”** får du bestämma och koda helt själv!
 
@@ -171,19 +171,19 @@ Nu ska du få skapa en affär. Den kommer innehålla de varor som du behöver f�
 
 1.	Starta spelet och körs tills du har gått in i affären.
 
-2.	**Lägg till en sprajt** som ska jobba i affären och namnge den **”säljare”**. Du kan till exempel välja ett djur eller en annan människa. I biblioteket finns många alternativ.
+2.	**Lägg till en sprajt** som ska jobba i affären och kalla den **”säljare”**. Du kan till exempel välja ett djur eller en annan människa. I biblioteket finns många alternativ.
 
 3.	**Lägg till** dessa sprajtar från biblioteket
 
-  * **Bananas** – **namnge** den **”bananer”**
+  * **Bananas** – **döp** den till **”bananer”**
 
-  * **Orange** – **namnge** den **"apelsin"**
+  * **Orange** – **döp** den till **”apelsin”**
 
-  * **Watermelon** – **namnge** den **"vattenmelon"**
+  * **Watermelon** – **kalla** den **”vattenmelon”**
 
-  * Valfritt **transportmedel**, t. Ex. Car-bug – **namnge** den **”transportmedel”**
+  * Valfritt **transportmedel**, t.ex. Car-bug – **döp** den till **”transportmedel”**
 
-    **Tips:** Om du vill kan du byta ut transportmedlet mot något annat. Det viktiga för uppgiften är att det finns något som är för dyrt att handla med de pengarna spelaren fick av **Calvrett**.
+    **Tips:** Om du vill kan du byta ut transportmedlet mot något annat. Det viktiga för uppgiften är att det finns något som är för dyrt att handla med de pengar spelaren fick av **Calvrett**.
 
 4.	Skapa ett skript för **säljare** som säger:
 
@@ -209,13 +209,13 @@ Nu ska du sätta priser på varorna:
 
 1.	Skapa dessa **variabler** för alla sprajter
 
-  * **"prisTransport""**
+  * **”prisTransport”**
 
-  * **"prisBananer""**
+  * **”prisBananer”**
 
-  * **"prisApelsin""**
+  * **”prisApelsin”**
 
-  * **"prisVattenmelon""**
+  * **”prisVattenmelon”**
 
 2.	Skapa ett skript för **scenen** som säger:
 
@@ -249,9 +249,9 @@ Först ska du skapa en ryggsäck så att du kan hålla reda på allt du har hand
 
   * Startar när den **klickas på**
 
-  * OM **"kronor"** är mer än **”prisVattenmelon”** då:
+  * OM **”kronor”** är mer än **”prisVattenmelon”** då:
 
-    * **Ändra "kronor"** med **–”prisVattenmelon”**. Glöm inte minus tecknet!
+    * **Ändra ”kronor”** med **–”prisVattenmelon”**. Glöm inte minus tecknet!
 
     * **Göm** sprajten
 
@@ -267,7 +267,7 @@ Först ska du skapa en ryggsäck så att du kan hålla reda på allt du har hand
 
 4.	**Kopiera** detta skript till sprajterna **bananer**, **apelsin** och **transport**. **Ändra ”prisVattenmelon”** på två ställen så att du jämför med rätt variabel. **Ändra** också **”en vattenmelon”** till en **”bananer”**, **”en apelsin”** och **”ett transportmedel”** för de olika sprajterna.
 
-5.	Se till att **allt tas bort** i **”rycksäck”** och **”inköpslista”** när spelet startar. Du kan till exempel skapa ett nytt **skript för scenen**.
+5.	Se till att **allt tas bort** i **”ryggsäck”** och **”inköpslista”** när spelet startar. Du kan till exempel skapa ett nytt **skript för scenen**.
 
 6.	Skapa ett skript för **säljare** som säger:
 
@@ -285,9 +285,9 @@ Nu har du gjort ett spel där du kan köpa saker till en fruktsallad. Fattas bar
 
   Denna variabel behövs för att programmet inte ska köra koden du nu ska skapa förrän spelaren har fått ett uppdrag. Den kan även användas om du utvecklar programmet vidare med andra äventyr.
 
-2. Skapa ett skript för **scenen** som **sätter "äventyr"** till **"inget"** när spelet startar
+2. Skapa ett skript för **scenen** som **sätter ”äventyr”** till **”inget”** när spelet startar
 
-3.	Ändra i **Calvrett skript** när han tar emot meddelandet **”ja-svar”** så att skriptet även **sätter ”äventyr”** till **”köpa frukt”**.
+3.	Ändra i **Calvretts skript** när han tar emot meddelandet **”ja-svar”** så att skriptet även **sätter ”äventyr”** till **”köpa frukt”**.
 
 4.	Skapa ett skript för **Calvrett** (eller den sprajten du valde) som säger:
 
@@ -295,7 +295,7 @@ Nu har du gjort ett spel där du kan köpa saker till en fruktsallad. Fattas bar
 
   * OM **”äventyr”** = **”köpa frukt”**
 
-    * OM **"rycksäck"** innehåller **”bananer”** och **”en apelsin”** och **”en vattenmelon”**
+    * OM **”ryggsäck”** innehåller **”bananer”** och **”en apelsin”** och **”en vattenmelon”**
 
       * **Säg** *”Fantastiskt! Nu ska jag göra fruktsallad!”*
 
@@ -321,10 +321,10 @@ Nu har du gjort ett spel där du kan köpa saker till en fruktsallad. Fattas bar
 
   * **Visa** sprajten
 
-8. Gör ett skript för sprajten **gå-gata** som **gömmer** sprajten när den tar emot meddelandet **"gör fruktsallad"**. Användaren ska inte kunna gå iväg igen eftersom uppdraget är färdigt!
+8. Gör ett skript för sprajten **gå-gata** som **gömmer** sprajten när den tar emot meddelandet **”gör fruktsallad”**. Användaren ska inte kunna gå iväg igen eftersom uppdraget är färdigt!
 
 ## Färdig!
-Grattis, nu har du gjort klart uppgiften.
+Grattis &ndash; nu har du gjort klart uppgiften.
 
 **Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
 
